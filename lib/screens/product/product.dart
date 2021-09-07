@@ -111,7 +111,7 @@ class ProductsScreen extends StatelessWidget {
                 crossAxisCount: 2,
                 shrinkWrap: true,
                 physics: NeverScrollableScrollPhysics(),
-                childAspectRatio: 1 / 1.51,
+                childAspectRatio: 1 / 1.60,
                 mainAxisSpacing: 1.0,
                 crossAxisSpacing: 1.0,
                 children: List.generate(

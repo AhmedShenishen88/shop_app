@@ -168,8 +168,9 @@ Widget listProductBuilder(model, context, {bool isOldPrice = true}) => Padding(
                           },
                           icon: CircleAvatar(
                               radius: 25.0,
-                              backgroundColor: false
-                                  // CubitShopScreenAll.get(context).favorite[model.id]
+                              backgroundColor: CubitShopScreenAll.get(context)
+                                          .favorite[model.id] ==
+                                      true
                                   ? Colors.blue
                                   : Colors.grey,
                               child: Icon(
